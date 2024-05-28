@@ -1,4 +1,4 @@
-In meinem Master-Seminar an der Universität beschäftigte ich mich mit der Untersuchung der NP-Vollständigkeit des Spiels Minesweeper. Dabei analysierte ich die theoretischen Aspekte und bewies die Komplexität des Spiels. 
+In meinem `Master-Seminar` an der Universität beschäftigte ich mich mit der Untersuchung der NP-Vollständigkeit des Spiels Minesweeper. Dabei analysierte ich die theoretischen Aspekte und bewies die Komplexität des Spiels. 
 Zur praktischen Veranschaulichung der theoretischen Konzepte entwickelte ich eine Demo des Spiels in Java, um die Regeln von Minesweeper visuell darzustellen.
 
 
