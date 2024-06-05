@@ -15,22 +15,21 @@ public class Minesweeper {
     int boardWidth = numCols * tileSize; 
     int boardHeight = numRows * tileSize;
 
+    int mineCount = 8;
+    Random randoom = new Random();
+
+    MineTile[][] board = new MineTile[numRows][numCols];
+    ArrayList<MineTile> mineList;
+    int tilesClicked = 0; //click all tiles except the one containing mines
+    boolean gameOver  =false;
+    
     //create the window
     JFrame frame = new JFrame("Minesweeper");
     JLabel textLabel = new JLabel();
     JPanel textPanel = new JPanel();
     JPanel boardPanel = new JPanel();
 
-
-    int mineCount = 8;
-    Random randoom = new Random();
-
-    MineTile[][] board = new MineTile[numRows][numCols];
-    ArrayList<MineTile> mineList;
-
-    int tilesClicked = 0; //click all tiles except the one containing mines
-    boolean gameOver  =false;
-
+    
     //create Buttons
     private class MineTile extends JButton {
         int r;
